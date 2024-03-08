@@ -1,0 +1,97 @@
+body {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    height: 100vh;
+}
+
+#counter_section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "start-label start-label"
+        "btn-sub decrease"
+        "btn-add increase"
+        "reset reset";
+    margin: auto;
+    gap: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 2rem;
+}
+
+#btn-decrease, #btn-increase {
+    background-color: #ffc857;
+    transition: 0.2s;
+    color: #fff;
+}
+
+#btn-decrease:hover, #btn-increase:hover {
+    background-color: #ffe1a5;
+    transition: 0.2s;
+}
+
+#start-label {
+    grid-area: start-label;
+    font-size: 7rem;
+    margin: auto;
+    color: #000;
+    width: 100%;
+    text-align: end;
+}
+#btn-increase {
+    grid-area: increase;
+}
+#btn-decrease {
+    grid-area: decrease;
+}
+#btn-reset {
+    grid-area: reset;
+    background-color: #c5c5c5;
+    font-weight: 600;
+}
+#btn-add {
+    grid-area: btn-add;
+    background-color: #2e4052;
+    color: #fff;
+    transition: 0.2s;
+}
+#btn-sub {
+    grid-area: btn-sub;
+    background-color: #2e4052;
+    color: #fff;
+    transition: 0.2s;
+}
+
+#btn-reset:hover {
+    background-color: #efefef;
+}
+
+#btn-add:hover, #btn-sub:hover {
+    background-color: #576676;
+    transition: 0.2s;
+}
+
+@media (max-width:768px) {
+    .btn_container {
+        width: 80%;
+    }
+}
