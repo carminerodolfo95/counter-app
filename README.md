@@ -1,6 +1,5 @@
 Overview
 ----------------------
-
 Si tratta di una semplice applicazione che funziona come un counter.  
 Essa permette di:
 - Incrementare di 1 il valore del numero mostrato (settato a zero);
@@ -10,3 +9,14 @@ Essa permette di:
 - Resettarlo a 0 (zero) tramite il pulsante "AC".
 
  <img src="images/overviewApp.png">
+
+
+ Quick link
+----------------------
+Puoi provare l'applicazione cliccando sul seguente link: <a href="https://carminerodolfo95.github.io/counter-app/">
+
+
+Features
+----------------------
+L'applicazione è stata sviluppata con HTML, CSS e JavaScript. 
+È utilizzabile su tutti i dispositivi: desktop, tablet, mobile.
