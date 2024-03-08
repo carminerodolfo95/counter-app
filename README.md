@@ -13,7 +13,7 @@ Essa permette di:
 
  Quick link
 ----------------------
-Puoi provare l'applicazione cliccando sul seguente link: <a href="https://carminerodolfo95.github.io/counter-app/">
+Puoi provare l'applicazione cliccando sul seguente link: [Prova l'app](https://carminerodolfo95.github.io/counter-app/)
 
 
 Features
