@@ -8,7 +8,7 @@ Essa permette di:
 - Diminuire di 100 il valore del numero;
 - Resettarlo a 0 (zero) tramite il pulsante "AC".
 
- <img src="images/overviewApp.png">
+ <img src="assets/images/overviewApp.png">
 
 
  Quick link
